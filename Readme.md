@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Иван Тунгел](https://up.htmlacademy.ru/htmlcss/30/user/1478619).
-* Наставник: `Неизвестно`.
+* Наставник: [Александр Лесухин](https://htmlacademy.ru/profile/caneklis).
 
 ---
 
