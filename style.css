@@ -1,0 +1,124 @@
+/* Variables */
+:root {
+  --bacic-black: #000000;
+  --bacic-gray: #333333;
+  --bacic-gray-back: #888888;
+  --bacic-extra-gray: #666666;
+  --bacic-white: #ffffff;
+  --special: #81B3D2;
+  --special-nav: #766357;
+}
+
+/* Global */
+body {
+  margin: 40px;
+  padd font-family: "PT Sans", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  color: var(--bacic-black);
+  text-transform: uppercase;
+  background-color: var(--bacic-white);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  color: var(--bacic-black);
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.site-navigation {
+  padding: 0;
+  margin: 0;
+  padding-top: 14px;
+  padding-bottom: 16px;
+  color: var(--bacic-black);
+}
+
+.site-navigation-link:hover {
+  color: var(--special);
+}
+
+.header-title {
+  font-size: 21px;
+  line-height: 26px;
+  text-align: center;
+}
+
+.title-promo {
+  font-size: 14px;
+  line-height: 26px;
+  text-align: center;
+}
+
+.blue {
+  width: 400px;
+  padding-top: 50px;
+  text-align: center;
+  background: var(--special);
+  color: var(--bacic-white);
+}
+
+.search-question {
+  margin: 0 auto;
+  margin-bottom: 24px;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 24px;
+  text-align: center;
+  color: var(--bacic-black);
+}
+
+.item-facilities {
+  font-size: 21px;
+  line-height: 21px;
+  font-weight: bold;
+}
+
+.text-bold {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: bold;
+}
+
+.found-sorting {
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.text-blue {
+  font-size: 12px;
+  line-height: 18px;
+  color: var(--special);
+}
+
+.text-norm {
+  font-size: 12px;
+  line-height: 18px;
+  color: var(--bacic-black);
+  opacity: 0.3;
+}
+
+.text-special {
+  color: var(--special-nav)
+}
+
+.container{
+  background-image: url("../img/background-photo.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.container-catalog{
+  background-image: url("../img/background-catal.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
+}

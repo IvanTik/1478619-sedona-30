@@ -2,32 +2,34 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
   <title>Седона</title>
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
   <h1>Седона</h1>
-  <header>
+  <header class="main-header">
     <div>
-      <nav>
-        <a href="index.html">
-          <img src="img/logo.png" width="138" height="70" alt="Логотип Седона">
+      <nav class="main-navigation">
+        <a class="main-header-logo" href="index.html">
+          <img src="../img/logo.svg" width="138" height="70" alt="Логотип Седона">
         </a>
-        <ul>
-          <li><a href="index.html">Информация</a></li>
-          <li><a href="index.html">Фото и видео</a></li>
-          <li><a href="index.html">Карта штата</a></li>
-          <li><a href="#">Гостиницы</a></li>
+        <ul class="site-navigation">
+          <li><a class="site-navigation-link" href="index.html">Информация</a></li>
+          <li><a class="site-navigation-link" href="index.html">Фото и видео</a></li>
+          <li><a class="site-navigation-link" href="index.html">Карта штата</a></li>
+          <li><a class="site-navigation-link text-special" href="#">Гостиницы</a></li>
         </ul>
       </nav>
     </div>
   </header>
-  <main>
+  <main class="container-catalog">
     <h2>Фильтр</h2>
     <form method="GET" action="#">
-      <fieldset>
+      <fieldset class="filter">
         <legend>Инфраструктура:</legend>
         <ul>
           <li>
@@ -44,7 +46,7 @@
           </li>
         </ul>
       </fieldset>
-      <fieldset>
+      <fieldset class="filter">
         <legend>Тип жилья:</legend>
         <ul>
           <li>
@@ -77,19 +79,19 @@
       </fieldset>
     </form>
     <section>
-      <h2>Найдено 3:</h2>
-      <p>Сортировка:</p>
+      <h2 class="text-bold">Найдено 3:</h2>
+      <p class="found-sorting">Сортировка:</p>
       <ul>
-        <li>По цене</li>
-        <li>По типу</li>
-        <li>По рейтингу</li>
+        <li class="text-blue">По цене</li>
+        <li class="text-norm">По типу</li>
+        <li class="text-norm">По рейтингу</li>
       </ul>
     </section>
     <h2>Виды жилья</h2>
     <ul>
       <li>
-        <h3>Amara Resort & Spa</h3>
-        <a><img src="img/hotel-photo.jpg" width="135" height="90" alt="Фото гостиницы Amara"></a>
+        <h3 class="text-bold">Amara Resort & Spa</h3>
+        <a><img src="../img/hotel-photo.jpg" width="135" height="90" alt="Фото гостиницы Amara"></a>
         <span>Гостиница</span>
         <span>от 4000 Р.</span>
         <a href="#">Подробнее</a>
@@ -97,8 +99,8 @@
         <span>Рейтинг: 8,5</span>
       </li>
       <li>
-        <h3>Desert Quail Inn</h3>
-        <a><img src="img/motel-photo.jpg" width="135" height="90" alt="Фото мотеля Desert"></a>
+        <h3 class="text-bold">Desert Quail Inn</h3>
+        <a><img src="../img/motel-photo.jpg" width="135" height="90" alt="Фото мотеля Desert"></a>
         <span>Мотель</span>
         <span>от 3000 Р.</span>
         <a href="#">Подробнее</a>
@@ -106,8 +108,8 @@
         <span>Рейтинг: 8,9</span>
       </li>
       <li>
-        <h3>Villas at Poco Diablo</h3>
-        <a><img src="img/apartaments-photo.jpg" width="135" height="90" alt="Фото апартаментов Villas"></a>
+        <h3 class="text-bold">Villas at Poco Diablo</h3>
+        <a><img src="../img/apartaments-photo.jpg" width="135" height="90" alt="Фото апартаментов Villas"></a>
         <span>Апартаменты</span>
         <span>от 2000 Р.</span>
         <a href="#">Подробнее</a>
@@ -118,7 +120,7 @@
   </main>
   <footer>
     <div>
-      <section>
+      <section class="footer-hashtag">
         <a href="#">#visitsedona</a>
         Тел: <a href="tel:+74956660166">+7(495)666-01-66</a>
       </section>
@@ -131,6 +133,7 @@
         </ul>
       </section>
       <p>
+        <img src="../img/logo-htmlacademy.svg" height="41" width="115"alt="Логотип htmlacademy">
         <a href="https://htmlacademy.ru/intensive/htmlcss">Website by</a>
       </p>
     </div>
