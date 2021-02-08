@@ -19,6 +19,13 @@ body {
   color: var(--bacic-black);
   text-transform: uppercase;
   background-color: var(--bacic-white);
+  display: grid;
+  grid-template-rows: min-content 1fr min-content;
+  align-content: start;
+}
+
+.page {
+  height: 100%;
 }
 
 .page-body {
@@ -192,28 +199,40 @@ ul {
   top: 0;
 }
 
-.container-block{
+.container-block {
   display: flex;
   flex-direction: row-reverse;
   margin-left: 40px;
   margin-right: 40px;
 }
 
-.container-block-rev{
+.container-block-rev {
   display: flex;
   flex-direction: row;
   margin-left: 40px;
   margin-right: 40px;
 }
 
-.features-item-caption{
+.features-item-caption {
   font-size: 21px;
   line-height: 21px;
   text-align: center;
 }
 
-.search-hotels{
+.search-hotels {
   font-size: 21px;
   line-height: 26px;
   text-align: center;
+}
+
+.button-details {
+  background-color: var(--special);
+  padding: 3px 17px;
+  color: var(--bacic-white);
+}
+
+.button-reservation {
+  background-color: var(--special-nav);
+  padding: 3px 17px;
+  color: var(--bacic-white);
 }
