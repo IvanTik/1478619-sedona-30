@@ -14,7 +14,7 @@
 @font-face {
   font-family: "PT Sans";
   font-weight: 400;
-  src: url("../fonts/pysans.woff") format("woff"),
+  src: url("../fonts/ptsans.woff") format("woff"),
     url("../fonts/ptsans.woff2") format("woff2");
 }
 
@@ -255,17 +255,57 @@ a {
   background-position: top center;
 }
 
-.main-footer {
+.footer-container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
   column-gap: 170px;
+  margin-top: 23px;
+  text-align: center;
 }
 
 .footer-hashtag {
+  width: 251px;
+  margin-left: 0px;
+  margin-right: 163px;
   font-size: 21px;
   line-height: 26px;
   font-weight: bold;
   text-align: center;
+}
+
+.footer-filter {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: 0;
+  padding: 0;
+  width: 150px;
+}
+
+.footer-copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  margin-left: 0px;
+  text-align: center;
+  margin-bottom: 41px;
+  margin-top: 23px;
+}
+
+.footer-copyright-logo {
+  margin-left: 8px;
+}
+
+.footer-filter-item {
+  display: flex;
+  width: 46px;
+  height: 48px;
+  color: var(--bacic-white);
+  background-color: var(--special);
+  background-position: center;
+  text-indent: -9999px;
 }
 
 .main-image {
@@ -340,10 +380,6 @@ a {
   list-style: none;
 }
 
-.footer-filter {
-  list-style: none;
-}
-
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -358,4 +394,22 @@ a {
 .features-list {
   padding: 0px;
   margin: 0px;
+}
+
+.filter-twitter {
+  background-image: url("../img/twitter-image.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.filter-facebook {
+  background-image: url("../img/facebook-image.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.filter-youtube {
+  background-image: url("../img/youtube-image.svg");
+  background-repeat: no-repeat;
+  background-position: center;
 }
