@@ -151,19 +151,23 @@ a {
   font-size: 14px;
   line-height: 26px;
   text-align: center;
-  padding-bottom: 30px;
+  margin-bottom: 49px;
   letter-spacing: 0.1px;
   background-color: var(--bacic-white);
+  margin-top: 45px;
 }
 
 .blue {
-  width: 470px;
-  min-height: 256px;
+  min-height: 156px;
   padding-top: 50px;
   text-align: center;
   background: var(--special);
   color: var(--bacic-white);
   width: 1200px;
+}
+
+.attractions-list{
+  margin-top: 30px;
 }
 
 .search-question {
@@ -174,7 +178,8 @@ a {
   line-height: 24px;
   text-align: center;
   color: var(--bacic-black);
-  padding-top: 58px;
+  padding-top: 55px;
+  margin-left: -9px;
 }
 
 .item-facilities {
@@ -247,12 +252,16 @@ a {
   grid-template-columns: 1fr 1fr 1fr;
   text-align: center;
   color: var(--bacic-gray);
-  column-gap: 120px;
-  padding-bottom: 82px;
+  column-gap: 90px;
+  padding-bottom: 60px;
   padding-top: 60px;
-  margin-right: 40px;
-  margin-left: 40px;
+  margin-right: 60px;
+  margin-left: 20px;
   list-style: none;
+}
+
+.sub-item{
+width: 300px;
 }
 
 .search-date {
@@ -260,16 +269,17 @@ a {
   line-height: 24px;
   text-align: center;
   color: var(--bacic-black);
+  margin-top: 34px;
 }
 
 .list-facilities-item {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   text-align: center;
-  column-gap: 150px;
+  column-gap: 0px;
   background-color: var(--bacic-back-gray);
-  padding-top: 47px;
-  padding-bottom: 54px;
+  padding-top: 25px;
+  padding-bottom: 40px;
   list-style: none;
 }
 
@@ -364,6 +374,11 @@ a {
   font-size: 21px;
   line-height: 21px;
   text-align: center;
+  margin-top: 0px;
+}
+
+.advantage-number{
+  margin-bottom: 28px;
 }
 
 .search-hotels {
@@ -503,7 +518,8 @@ input[type="text"]::placeholder {
   width: 568px;
   height: 86px;
   background-color: #766357;
-  margin-left: 300px;
+  margin-left: 315px;
+  margin-top: 30px;
 }
 
 .form-title:hover {
