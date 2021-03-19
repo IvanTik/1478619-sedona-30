@@ -438,12 +438,12 @@ a {
   min-height: 120px;
   position: relative;
   background-color: rgba(255, 255, 255, 0.9);
-  /* padding-left: 117px;
-  padding-right: 115px; */
 }
 
 .map {
   margin-bottom: -120px;
+  width: 1200px;
+  padding-left: 75px;
 }
 
 .main-image {
@@ -641,18 +641,16 @@ input[type="text"]::placeholder {
   color: rgba(255, 255, 255, 0.3);
 }
 
-.form {
+.booking {
   position: relative;
-  overflow: hidden;
 }
 
-.form-search {
+.form {
   position: absolute;
-  top: 0;
-  left: 316px;
-  width: 512px;
-  padding-top: 55px;
-  padding-left: 56px;
+  top: 100%;
+  left: 50%;
+  width: 568px;
+  padding: 55px;
   font: inherit;
   font-size: 14px;
   font-weight: bold;
@@ -661,7 +659,10 @@ input[type="text"]::placeholder {
   background-color: #ffffff;
   -webkit-box-shadow: 0px 7px 15px 0 rgba(0, 1, 1, 0.15);
   box-shadow: 0px 7px 15px 0 rgba(0, 1, 1, 0.15);
+  transform: translateY(0) translateX(-50%);
 }
+
+.form-search {}
 
 .form-search.is-showed {
   -webkit-transform: translateY(0);
@@ -669,11 +670,11 @@ input[type="text"]::placeholder {
   transform: translateY(0);
 }
 
-.form-search.no-js {
+/* .form-search.no-js {
   -webkit-transform: translateY(0);
   -ms-transform: translateY(0);
   transform: translateY(0);
-}
+} */
 
 .submit-error {
   -webkit-animation: shake 0.6s;
@@ -690,6 +691,18 @@ input[type="text"]::placeholder {
   border: none;
   margin: 0;
   padding: 0;
+}
+
+.form-field-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  position: relative;
+  margin-bottom: 29px;
+}
+
+.form-field-wrapper label {
+  min-width: 112px;
 }
 
 .form-search-label-from {
@@ -716,21 +729,26 @@ input[type="text"]::placeholder {
   width: 346px;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
+  position: relative;
+}
+
+.form-search-field input {
+  display: block;
+  width: 100%;
   padding: 9px 0;
   padding-left: 14px;
-  margin-bottom: 30px;
+  font: inherit;
+  background-color: #f2f2f2;
   max-height: 38px;
   font-size: 14px;
   line-height: 26px;
-  font: inherit;
-  background-color: #f2f2f2;
   font-size: 14px;
   font-weight: 700;
   color: #000000;
-  border: none
+  border: none;
 }
 
-.form-search-field:hover {
+.form-search-field input:hover {
   font: inherit;
   background-color: #ebebeb;
   font-size: 14px;
@@ -738,7 +756,7 @@ input[type="text"]::placeholder {
   color: #000000;
 }
 
-.form-search-field:focus {
+.form-search-field input:focus {
   font: inherit;
   background-color: #ffffff;
   font-size: 14px;
@@ -747,9 +765,9 @@ input[type="text"]::placeholder {
 }
 
 .form-search-calendar {
-  position: relative;
+  position: absolute;
   top: 6px;
-  right: 40px;
+  right: 8px;
   background-color: transparent;
   fill: #cacaca;
   border: none;
@@ -765,8 +783,6 @@ input[type="text"]::placeholder {
 }
 
 .humans {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
@@ -869,7 +885,6 @@ input[type="text"]::placeholder {
 
 .search-button {
   padding: 16px 0;
-  margin-bottom: 54px;
   width: 458px;
   font-size: 21px;
   font-weight: bold;
@@ -1468,14 +1483,14 @@ fieldset {
   margin-left: 72px;
 }
 
-.main__hotel-header{
+.main__hotel-header {
   border-bottom: 1px solid #cacaca;
 }
 
-.main__hotel-main{
+.main__hotel-main {
   border-bottom: 1px solid #cacaca;
 }
 
-.main__hotel-footer{
+.main__hotel-footer {
   border-bottom: 1px solid #cacaca;
 }

@@ -48,20 +48,22 @@
               </div>
             </div>
           </li>
-          <ul class="feature-list">
-            <li class="feature-item house">
-              <h4>Жильё</h4>
-              <p>Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
-            </li>
-            <li class="feature-item food">
-              <h4>Еда</h4>
-              <p>Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
-            </li>
-            <li class="feature-item souvenirs">
-              <h4>Сувениры</h4>
-              <p>Не только китайского, но и местного производства!</p>
-            </li>
-          </ul>
+          <li>
+            <ul class="feature-list">
+              <li class="feature-item house">
+                <h4>Жильё</h4>
+                <p>Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
+              </li>
+              <li class="feature-item food">
+                <h4>Еда</h4>
+                <p>Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
+              </li>
+              <li class="feature-item souvenirs">
+                <h4>Сувениры</h4>
+                <p>Не только китайского, но и местного производства!</p>
+              </li>
+            </ul>
+          </li>
           <li class="features-item features-item-1">
             <div class="container-block-rev">
               <img class="advantage-image" src="img/photo-devil-bridge.jpg" width="800" height="256" alt="Мост дьявола">
@@ -88,23 +90,23 @@
             <p class="item-number">&mdash; №5 &mdash;</p>
             <p class="attractions-list">Большинство едет в Гранд Каньон <br>и толпится там</p>
           </li>
-          </li>
         </ul>
       </section>
-      <div class="booking">
+      <section class="booking">
         <p class="search-question">Заинтересовались?</p>
         <p class="search-date">Укажите предполагаемые даты поездки, <br>и мы покажем вам лучшие предложения гостиниц в
           Седоне </p>
         <a href="#" class="hotel-button">
           <p class="form-header">Поиск гостиницы в седоне</p>
         </a>
-        </section>
-        <section class="form">
-          <form action="https://echo.htmlacademy.ru" class="form-search no-js" method="post">
-            <fieldset class="form-body">
-              <p>
-                <label class="form-search-label-from" for="from">Дата заезда: </label>
-                <input class="form-search-field" id="from" name="date" placeholder="24 апреля 2017" type="text">
+      </section>
+      <section class="form">
+        <form action="https://echo.htmlacademy.ru" class="form-search no-js" method="post">
+          <fieldset class="form-body">
+            <div class="form-field-wrapper">
+              <label for="from">Дата заезда: </label>
+              <div class="form-search-field">
+                <input id="from" name="date" placeholder="24 апреля 2017" type="text">
                 <button type="button" class="form-search-calendar">
                   <span class="visually-hidden">Календарь</span>
                   <svg height="22" viewbox="0 0 21 22" width="21" xmlns="http://www.w3.org/2000/svg">
@@ -114,92 +116,94 @@
                       d="M4.594 8.225h2.625v2.066H4.594zM4.594 11.668h2.625v2.067H4.594zM4.594 15.112h2.625v2.066H4.594zM9.188 15.112h2.625v2.066H9.188zM9.188 11.668h2.625v2.067H9.188zM9.188 8.225h2.625v2.066H9.188zM13.781 15.112h2.625v2.066h-2.625zM13.781 11.668h2.625v2.067h-2.625zM13.781 8.225h2.625v2.066h-2.625z" />
                   </svg>
                 </button>
-              </p>
-              <p>
-                <label class="form-search-label-to" for="to">Дата выезда: </label>
-                <input class="form-search-field" id="to" name="date" placeholder="4 июля 2017" type="text">
-                <button type="button" class="form-search-calendar">
-                  <span class="visually-hidden">Календарь</span>
-                  <svg height="22" viewbox="0 0 21 22" width="21" xmlns="http://www.w3.org/2000/svg">
-                    <path
-                      d="M19.251 2.025h-2.845V.648c0-.381-.294-.689-.656-.689-.363 0-.656.308-.656.689v1.377h-3.938V.648c0-.381-.294-.689-.655-.689-.363 0-.657.308-.657.689v1.377H5.906V.648c0-.381-.294-.689-.656-.689-.363 0-.657.308-.657.689v1.377H1.75C.784 2.025 0 2.847 0 3.862v16.302C0 21.179.784 22 1.75 22h17.501c.966 0 1.749-.821 1.749-1.836V3.862c0-1.015-.783-1.837-1.749-1.837zm.437 18.139a.448.448 0 0 1-.437.459H1.75a.45.45 0 0 1-.438-.459V3.862a.45.45 0 0 1 .438-.459h2.844v1.378c0 .381.294.689.657.689.362 0 .656-.308.656-.689V3.403h3.938v1.378c0 .381.294.689.657.689.361 0 .655-.308.655-.689V3.403h3.938v1.378c0 .381.293.689.656.689.362 0 .656-.308.656-.689V3.403h2.845c.241 0 .437.206.437.459v16.302z" />
-                    <path
-                      d="M4.594 8.225h2.625v2.066H4.594zM4.594 11.668h2.625v2.067H4.594zM4.594 15.112h2.625v2.066H4.594zM9.188 15.112h2.625v2.066H9.188zM9.188 11.668h2.625v2.067H9.188zM9.188 8.225h2.625v2.066H9.188zM13.781 15.112h2.625v2.066h-2.625zM13.781 11.668h2.625v2.067h-2.625zM13.781 8.225h2.625v2.066h-2.625z" />
-                  </svg>
-                </button>
-              </p>
-              <div class="humans">
-                <p class="find-item">
-                  <button class="minus-adult" type="button">
-                    <span class="visually-hidden">Убавить</span>
-                    <svg height="12" viewbox="0 0 32 32" width="12">
-                      <path
-                        d="M0 13v6c0 0.552 0.448 1 1 1h30c0.552 0 1-0.448 1-1v-6c0-0.552-0.448-1-1-1h-30c-0.552 0-1 0.448-1 1z">
-                      </path>
-                    </svg>
-                  </button>
-                  <button class="plus-adult" type="button">
-                    <span class="visually-hidden">Прибавить</span>
-                    <svg height="11" viewbox="0 0 32 32" width="11">
-                      <path
-                        d="M31 12h-11v-11c0-0.552-0.448-1-1-1h-6c-0.552 0-1 0.448-1 1v11h-11c-0.552 0-1 0.448-1 1v6c0 0.552 0.448 1 1 1h11v11c0 0.552 0.448 1 1 1h6c0.552 0 1-0.448 1-1v-11h11c0.552 0 1-0.448 1-1v-6c0-0.552-0.448-1-1-1z">
-                      </path>
-                    </svg>
-                  </button>
-                  <label for="adults" class="form-search-number">Взрослые:</label>
-                  <input class="input-number input-adults" name="adult" id="adults" placeholder="2" type="text">
-                </p>
-                <p class="find-item">
-                  <button class="minus-child" type="button">
-                    <span class="visually-hidden">Убавить</span>
-                    <svg height="12" viewbox="0 0 32 32" width="12">
-                      <path
-                        d="M0 13v6c0 0.552 0.448 1 1 1h30c0.552 0 1-0.448 1-1v-6c0-0.552-0.448-1-1-1h-30c-0.552 0-1 0.448-1 1z">
-                      </path>
-                    </svg>
-                  </button>
-                  <button class="plus-child" type="button">
-                    <span class="visually-hidden">Прибавить</span>
-                    <svg height="11" viewbox="0 0 32 32" width="11">
-                      <path
-                        d="M31 12h-11v-11c0-0.552-0.448-1-1-1h-6c-0.552 0-1 0.448-1 1v11h-11c-0.552 0-1 0.448-1 1v6c0 0.552 0.448 1 1 1h11v11c0 0.552 0.448 1 1 1h6c0.552 0 1-0.448 1-1v-11h11c0.552 0 1-0.448 1-1v-6c0-0.552-0.448-1-1-1z">
-                      </path>
-                    </svg>
-                  </button>
-                  <label for="children" class="form-search-number">Дети:</label>
-                  <input class="input-number input-children" name="child" id="children" placeholder="0" type="text">
-                </p>
               </div>
-              <button class="search-button" type="submit"> Найти </button>
-            </fieldset>
-          </form>
-      </div>
-      <section class="map">
-        <iframe allowfullscreen height="588"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d352258.19710263924!2d-111.88600118737577!3d34.8882723987366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872da132f942b00d%3A0x5548c523fa6c8efd!2z0KHQtdC00L7QvdCwLCDQkNGA0LjQt9C-0L3QsCA4NjMzNiwg0KHQqNCQ!5e0!3m2!1sru!2sru!4v1545211473811"
-          style="border:0" width="1200"></iframe>
-      </section>
-      </section>
-    </main>
-    <footer class="page-footer">
-      <section class="footer-hashtag">
-        <a class="hashtag" href="#">#visitsedona</a><br>
-        <div class="telephone">Тел: <a href="tel:+74956660166">+7(495) 666-01-66</a></div>
-      </section>
-      <section>
-        <h2 class="visually-hidden">Седона в официальных сетях</h2>
-        <ul class="footer-filter">
-          <li><a class="footer-filter-item filter-twitter" href="#">Твиттер</a></li>
-          <li><a class="footer-filter-item filter-facebook" href="#">Фейсбук</a></li>
-          <li><a class="footer-filter-item filter-youtube" href="#">Ютуб</a></li>
-        </ul>
-      </section>
-      <p class="footer-copyright">
-        <a href="https://htmlacademy.ru/intensive/htmlcss">Website by</a>
-        <img class="footer-copyright-logo" src="img/logo-htmlacademy.svg" height="41" width="115"
-          alt="Логотип htmlacademy">
-      </p>
-    </footer>
+            </div>
+            <div class="form-field-wrapper">
+              <label for="to">Дата выезда: </label>
+              <div class="form-search-field">
+                <input id="to" name="date" placeholder="4 июля 2017" type="text">
+                <button type="button" class="form-search-calendar">
+                  <span class="visually-hidden">Календарь</span>
+                  <svg height="22" viewbox="0 0 21 22" width="21" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M19.251 2.025h-2.845V.648c0-.381-.294-.689-.656-.689-.363 0-.656.308-.656.689v1.377h-3.938V.648c0-.381-.294-.689-.655-.689-.363 0-.657.308-.657.689v1.377H5.906V.648c0-.381-.294-.689-.656-.689-.363 0-.657.308-.657.689v1.377H1.75C.784 2.025 0 2.847 0 3.862v16.302C0 21.179.784 22 1.75 22h17.501c.966 0 1.749-.821 1.749-1.836V3.862c0-1.015-.783-1.837-1.749-1.837zm.437 18.139a.448.448 0 0 1-.437.459H1.75a.45.45 0 0 1-.438-.459V3.862a.45.45 0 0 1 .438-.459h2.844v1.378c0 .381.294.689.657.689.362 0 .656-.308.656-.689V3.403h3.938v1.378c0 .381.294.689.657.689.361 0 .655-.308.655-.689V3.403h3.938v1.378c0 .381.293.689.656.689.362 0 .656-.308.656-.689V3.403h2.845c.241 0 .437.206.437.459v16.302z" />
+                    <path
+                      d="M4.594 8.225h2.625v2.066H4.594zM4.594 11.668h2.625v2.067H4.594zM4.594 15.112h2.625v2.066H4.594zM9.188 15.112h2.625v2.066H9.188zM9.188 11.668h2.625v2.067H9.188zM9.188 8.225h2.625v2.066H9.188zM13.781 15.112h2.625v2.066h-2.625zM13.781 11.668h2.625v2.067h-2.625zM13.781 8.225h2.625v2.066h-2.625z" />
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <div class="humans">
+              <p class="find-item">
+                <button class="minus-adult" type="button">
+                  <span class="visually-hidden">Убавить</span>
+                  <svg height="12" viewbox="0 0 32 32" width="12">
+                    <path
+                      d="M0 13v6c0 0.552 0.448 1 1 1h30c0.552 0 1-0.448 1-1v-6c0-0.552-0.448-1-1-1h-30c-0.552 0-1 0.448-1 1z">
+                    </path>
+                  </svg>
+                </button>
+                <button class="plus-adult" type="button">
+                  <span class="visually-hidden">Прибавить</span>
+                  <svg height="11" viewbox="0 0 32 32" width="11">
+                    <path
+                      d="M31 12h-11v-11c0-0.552-0.448-1-1-1h-6c-0.552 0-1 0.448-1 1v11h-11c-0.552 0-1 0.448-1 1v6c0 0.552 0.448 1 1 1h11v11c0 0.552 0.448 1 1 1h6c0.552 0 1-0.448 1-1v-11h11c0.552 0 1-0.448 1-1v-6c0-0.552-0.448-1-1-1z">
+                    </path>
+                  </svg>
+                </button>
+                <label for="adults" class="form-search-number">Взрослые:</label>
+                <input class="input-number input-adults" name="adult" id="adults" placeholder="2" type="text">
+              </p>
+              <p class="find-item">
+                <button class="minus-child" type="button">
+                  <span class="visually-hidden">Убавить</span>
+                  <svg height="12" viewbox="0 0 32 32" width="12">
+                    <path
+                      d="M0 13v6c0 0.552 0.448 1 1 1h30c0.552 0 1-0.448 1-1v-6c0-0.552-0.448-1-1-1h-30c-0.552 0-1 0.448-1 1z">
+                    </path>
+                  </svg>
+                </button>
+                <button class="plus-child" type="button">
+                  <span class="visually-hidden">Прибавить</span>
+                  <svg height="11" viewbox="0 0 32 32" width="11">
+                    <path
+                      d="M31 12h-11v-11c0-0.552-0.448-1-1-1h-6c-0.552 0-1 0.448-1 1v11h-11c-0.552 0-1 0.448-1 1v6c0 0.552 0.448 1 1 1h11v11c0 0.552 0.448 1 1 1h6c0.552 0 1-0.448 1-1v-11h11c0.552 0 1-0.448 1-1v-6c0-0.552-0.448-1-1-1z">
+                    </path>
+                  </svg>
+                </button>
+                <label for="children" class="form-search-number">Дети:</label>
+                <input class="input-number input-children" name="child" id="children" placeholder="0" type="text">
+              </p>
+            </div>
+            <button class="search-button" type="submit"> Найти </button>
+          </fieldset>
+        </form>
+  </div>
+  <section class="map">
+    <iframe allowfullscreen height="588"
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d352258.19710263924!2d-111.88600118737577!3d34.8882723987366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872da132f942b00d%3A0x5548c523fa6c8efd!2z0KHQtdC00L7QvdCwLCDQkNGA0LjQt9C-0L3QsCA4NjMzNiwg0KHQqNCQ!5e0!3m2!1sru!2sru!4v1545211473811"
+      style="border:0" width="1200"></iframe>
+  </section>
+  </main>
+  <footer class="page-footer">
+    <section class="footer-hashtag">
+      <a class="hashtag" href="#">#visitsedona</a><br>
+      <div class="telephone">Тел: <a href="tel:+74956660166">+7(495) 666-01-66</a></div>
+    </section>
+    <section>
+      <h2 class="visually-hidden">Седона в официальных сетях</h2>
+      <ul class="footer-filter">
+        <li><a class="footer-filter-item filter-twitter" href="#">Твиттер</a></li>
+        <li><a class="footer-filter-item filter-facebook" href="#">Фейсбук</a></li>
+        <li><a class="footer-filter-item filter-youtube" href="#">Ютуб</a></li>
+      </ul>
+    </section>
+    <p class="footer-copyright">
+      <a href="https://htmlacademy.ru/intensive/htmlcss">Website by</a>
+      <img class="footer-copyright-logo" src="img/logo-htmlacademy.svg" height="41" width="115"
+        alt="Логотип htmlacademy">
+    </p>
+  </footer>
   </div>
 </body>
 
