@@ -28,9 +28,8 @@
       </div>
     </header>
     <main class="container">
-      <form class="header__filtation filtration" method="post" action="https://echo.htmlacademy.ru"
-        oninput="daysoutput.value=dayscount.value">
-        <h1 class="filtration__visually-hidden">Критерии для поиска желаемой гостиницы</h1>
+      <h1 class="filtration__visually-hidden">Список гостиниц в городе Седона</h1>
+      <form class="header__filtration filtration" method="post" action="https://echo.htmlacademy.ru">
         <div class="filtration__components components">
           <fieldset class="components__structure">
             <p class="components__title elem">Инфраструктура:</p>
@@ -83,19 +82,21 @@
           </fieldset>
         </div>
         <div class="filter-range">
-          <div class="filter-range-title">Стоимость в сутки (р):</div>
-          <div class="price-controls">
-            <label class="min-price">от <input type="text" name="min-price" value="0"></label>
-            <label class="max-price">до <input type="text" name="max-price" value="3000"></label>
-          </div>
-          <div class="range-controls">
-            <div class="scale">
-              <div class="bar"></div>
+          <div class="filter-range-wrapper">
+            <div class="filter-range-title">Стоимость в сутки (р):</div>
+            <div class="price-controls">
+              <label class="min-price">от <input type="text" name="min-price" value="0"></label>
+              <label class="max-price">до <input type="text" name="max-price" value="3000"></label>
             </div>
-            <div class="range-toggle range-toggle-min"></div>
-            <div class="range-toggle range-toggle-max"></div>
+            <div class="range-controls">
+              <div class="scale">
+                <div class="bar"></div>
+              </div>
+              <div class="range-toggle range-toggle-min"></div>
+              <div class="range-toggle range-toggle-max"></div>
+            </div>
+            <button type="submit" class="btn-transparent">Показать</button>
           </div>
-          <a class="btn-transparent" href="#">Показать</a>
         </div>
       </form>
       <div class="container__nav nav">
@@ -137,18 +138,16 @@
               <div class="img__ARS">
               </div>
             </a>
-            <div class="hotel__info info">
-              <div class="info__header">
-                <p class="info__title elem">Amara Resort & Spa</p>
-              </div>
-              <div class="info__main">
-                <p class="info__text info__text-left">Гостиница</p>
-                <a class="info__link-btn" href="#">Подробнее</a>
-              </div>
-              <div class="info__footer">
-                <p class="info__text info__text-right">От 4000 Р.</p>
-                <button class="info__btn">Забронировать</button>
-              </div>
+          </div>
+          <div class="hotel__info info">
+            <h2 class="info__title elem">Amara Resort & Spa</h2>
+            <div class="info__main">
+              <p class="info__text info__text-left">Гостиница</p>
+              <a class="info__link-btn" href="#">Подробнее</a>
+            </div>
+            <div class="info__booking">
+              <p class="info__text info__text-right">От 4000 Р.</p>
+              <button class="info__btn">Забронировать</button>
             </div>
           </div>
           <div class="hotel__right-wrapper">
@@ -158,25 +157,25 @@
                   <svg xmlns="http://www.w3.org/2000/svg" width="18" height="17" viewBox="0 0 18 17">
                     <path fill="#81B3D2"
                       d="M9.002 0l2.126 6.494h6.877l-5.564 4.012L14.566 17l-5.564-4.013L3.438 17l2.126-6.494L0 6.494h6.878z" />
-                    </svg>
+                  </svg>
                 </i>
                 <i class="stars__icon">
                   <svg xmlns="http://www.w3.org/2000/svg" width="18" height="17" viewBox="0 0 18 17">
                     <path fill="#81B3D2"
                       d="M9.002 0l2.126 6.494h6.877l-5.564 4.012L14.566 17l-5.564-4.013L3.438 17l2.126-6.494L0 6.494h6.878z" />
-                    </svg>
+                  </svg>
                 </i>
                 <i class="stars__icon">
                   <svg xmlns="http://www.w3.org/2000/svg" width="18" height="17" viewBox="0 0 18 17">
                     <path fill="#81B3D2"
                       d="M9.002 0l2.126 6.494h6.877l-5.564 4.012L14.566 17l-5.564-4.013L3.438 17l2.126-6.494L0 6.494h6.878z" />
-                    </svg>
+                  </svg>
                 </i>
                 <i class="start__icon">
                   <svg xmlns="http://www.w3.org/2000/svg" width="18" height="17" viewBox="0 0 18 17">
                     <path fill="#81B3D2"
                       d="M9.002 0l2.126 6.494h6.877l-5.564 4.012L14.566 17l-5.564-4.013L3.438 17l2.126-6.494L0 6.494h6.878z" />
-                    </svg>
+                  </svg>
                 </i>
               </div>
               <p class="right-column__rate right-column__rate-ARS">Рейтинг:8,5</p>
@@ -189,18 +188,16 @@
               <div class="img__DQI">
               </div>
             </a>
-            <div class="hotel__info info">
-              <div class="info__header">
-                <p class="info__title elem">Desert Quail Inn</p>
-              </div>
-              <div class="info__main">
-                <p class="info__text info__text-left">Мотель</p>
-                <a class="info__link-btn" href="#">Подробнее</a>
-              </div>
-              <div class="info__footer">
-                <p class="info__text info__text-right">От 3000 Р.</p>
-                <button class="info__btn">Забронировать</button>
-              </div>
+          </div>
+          <div class="hotel__info info">
+            <h2 class="info__title elem">Desert Quail Inn</h2>
+            <div class="info__main">
+              <p class="info__text info__text-left">Мотель</p>
+              <a class="info__link-btn" href="#">Подробнее</a>
+            </div>
+            <div class="info__booking">
+              <p class="info__text info__text-right">От 3000 Р.</p>
+              <button class="info__btn">Забронировать</button>
             </div>
           </div>
           <div class="hotel__right-wrapper">
@@ -210,19 +207,19 @@
                   <svg xmlns="http://www.w3.org/2000/svg" width="18" height="17" viewBox="0 0 18 17">
                     <path fill="#81B3D2"
                       d="M9.002 0l2.126 6.494h6.877l-5.564 4.012L14.566 17l-5.564-4.013L3.438 17l2.126-6.494L0 6.494h6.878z" />
-                    </svg>
+                  </svg>
                 </i>
                 <i class="stars__icon">
                   <svg xmlns="http://www.w3.org/2000/svg" width="18" height="17" viewBox="0 0 18 17">
                     <path fill="#81B3D2"
                       d="M9.002 0l2.126 6.494h6.877l-5.564 4.012L14.566 17l-5.564-4.013L3.438 17l2.126-6.494L0 6.494h6.878z" />
-                    </svg>
+                  </svg>
                 </i>
                 <i class="stars__icon">
                   <svg xmlns="http://www.w3.org/2000/svg" width="18" height="17" viewBox="0 0 18 17">
                     <path fill="#81B3D2"
                       d="M9.002 0l2.126 6.494h6.877l-5.564 4.012L14.566 17l-5.564-4.013L3.438 17l2.126-6.494L0 6.494h6.878z" />
-                    </svg>
+                  </svg>
                 </i>
               </div>
               <p class="right-column__rate right-column__rate-DQI">Рейтинг:8,9</p>
@@ -235,18 +232,16 @@
               <div class="img__APD">
               </div>
             </a>
-            <div class="hotel__info info">
-              <div class="info__header">
-                <p class="info__title elem">Villas At Poco Diablo</p>
-              </div>
-              <div class="info__main">
-                <p class="info__text info__text-left">Апартаменты</p>
-                <a class="info__link-btn" href="#">Подробнее</a>
-              </div>
-              <div class="info__footer">
-                <p class="info__text info__text-right">От 2000 Р.</p>
-                <button class="info__btn">Забронировать</button>
-              </div>
+          </div>
+          <div class="hotel__info info">
+            <h2 class="info__title elem">Villas At Poco Diablo</h2>
+            <div class="info__main">
+              <p class="info__text info__text-left">Апартаменты</p>
+              <a class="info__link-btn" href="#">Подробнее</a>
+            </div>
+            <div class="info__booking">
+              <p class="info__text info__text-right">От 2000 Р.</p>
+              <button class="info__btn">Забронировать</button>
             </div>
           </div>
           <div class="hotel__right-wrapper">
@@ -256,13 +251,13 @@
                   <svg xmlns="http://www.w3.org/2000/svg" width="18" height="17" viewBox="0 0 18 17">
                     <path fill="#81B3D2"
                       d="M9.002 0l2.126 6.494h6.877l-5.564 4.012L14.566 17l-5.564-4.013L3.438 17l2.126-6.494L0 6.494h6.878z" />
-                    </svg>
+                  </svg>
                 </i>
                 <i class="stars__icon">
                   <svg xmlns="http://www.w3.org/2000/svg" width="18" height="17" viewBox="0 0 18 17">
                     <path fill="#81B3D2"
                       d="M9.002 0l2.126 6.494h6.877l-5.564 4.012L14.566 17l-5.564-4.013L3.438 17l2.126-6.494L0 6.494h6.878z" />
-                    </svg>
+                  </svg>
                 </i>
               </div>
               <p class="right-column__rate right-column__rate-VAPD">Рейтинг:9,2</p>
