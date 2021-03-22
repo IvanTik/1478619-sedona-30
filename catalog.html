@@ -36,20 +36,19 @@
             <ul class="components__list filter-option">
               <li class="components__item">
                 <label class="component__label-checkbox check">
-                  <input class="components__checkbox components__checkbox--disabled" type="checkbox" name="component"
-                    checked>
+                  <input class="components__checkbox" type="checkbox" name="component" checked>
                   <span class="component__text">Бассейн</span>
                 </label>
               </li>
               <li class="components__item">
                 <label class="component__label-checkbox check">
-                  <input class="components__checkbox components__checkbox--disabled" type="checkbox" name="component">
+                  <input class="components__checkbox" type="checkbox" name="component">
                   <span class="component__text">Парковка</span>
                 </label>
               </li>
               <li class="components__item">
                 <label class="component__label-checkbox check">
-                  <input class="components__checkbox components__checkbox--disabled" type="checkbox" name="component">
+                  <input class="components__checkbox" type="checkbox" name="component">
                   <span class="component__text">Wi-Fi</span>
                 </label>
               </li>
@@ -62,19 +61,19 @@
             <ul class="house__list filter-option">
               <li class="house__item">
                 <label class="house__label-checkbox check">
-                  <input class="house__checkbox house__checkbox--disabled" type="checkbox" name="places" checked>
+                  <input class="house__checkbox" type="checkbox" name="places" checked>
                   <span class="component__text">Гостиница</span>
                 </label>
               </li>
               <li class="house__item">
                 <label class="house__label-checkbox check">
-                  <input class="house__checkbox house__checkbox--disabled" type="checkbox" name="places" checked>
+                  <input class="house__checkbox" type="checkbox" name="places" checked>
                   <span class="component__text">Мотель</span>
                 </label>
               </li>
               <li class="house__item">
                 <label class="house__label-checkbox check">
-                  <input class="house__checkbox house__checkbox--disabled" type="checkbox" name="places" checked>
+                  <input class="house__checkbox" type="checkbox" name="places" checked>
                   <span class="component__text">Апартаменты</span>
                 </label>
               </li>
@@ -92,8 +91,12 @@
               <div class="scale">
                 <div class="bar"></div>
               </div>
-              <div class="range-toggle range-toggle-min"></div>
-              <div class="range-toggle range-toggle-max"></div>
+              <div class="range-toggle range-toggle-min">
+                <span class="visually-hidden">Переключатель цены от</span>
+              </div>
+              <div class="range-toggle range-toggle-max">
+                <span class="visually-hidden">Переключатель цены до</span>
+              </div>
             </div>
             <button type="submit" class="btn-transparent">Показать</button>
           </div>
