@@ -456,6 +456,10 @@ a {
 }
 
 .map-img {
+  display: block;
+}
+
+.map-img-hide {
   display: none;
 }
 
