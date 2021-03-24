@@ -10,8 +10,3 @@ link.addEventListener("click", function (evt) {
   evt.preventDefault();
   popup.classList.toggle("form-close");
 });
-
-// map.addEventListener("click", function (evt) {
-//   evt.preventDefault();
-//   map.classList.toggle("map-img-hide");
-// });
